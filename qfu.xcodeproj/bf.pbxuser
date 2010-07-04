@@ -1,0 +1,87 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A173805C11E1062D00A30926 /* fa */;
+		activeTarget = A173806911E1070C00A30926 /* qfu */;
+		addToTargets = (
+		);
+		codeSenseManager = A173803E11E105C600A30926 /* Code sense */;
+		executables = (
+			A173805C11E1062D00A30926 /* fa */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 299959787;
+			PBXWorkspaceStateSaveDate = 299959787;
+		};
+		sourceControlManager = A173803D11E105C600A30926 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32A70AAB03705E1F00C91783 /* qfu_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 602}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 148}";
+			sepNavWindowFrame = "{{15, 143}, {974, 730}}";
+		};
+	};
+	A173803D11E105C600A30926 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A173803E11E105C600A30926 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A173804E11E105FB00A30926 /* fa.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 602}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 238}";
+			sepNavWindowFrame = "{{38, 122}, {974, 730}}";
+		};
+	};
+	A173805A11E1062D00A30926 /* fa */ = {
+		activeExec = 0;
+		executables = (
+			A173805C11E1062D00A30926 /* fa */,
+		);
+	};
+	A173805C11E1062D00A30926 /* fa */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = fa;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A173806911E1070C00A30926 /* qfu */ = {
+		activeExec = 0;
+	};
+}
