@@ -2,17 +2,18 @@
 {
 	08FB7793FE84155DC02AAC07 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = A173805C11E1062D00A30926 /* fa */;
+		activeExecutable = A1F5300011E221E800C91448 /* glob */;
 		activeTarget = A173806911E1070C00A30926 /* qfu */;
 		addToTargets = (
 		);
 		codeSenseManager = A173803E11E105C600A30926 /* Code sense */;
 		executables = (
 			A173805C11E1062D00A30926 /* fa */,
+			A1F5300011E221E800C91448 /* glob */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 299959787;
-			PBXWorkspaceStateSaveDate = 299959787;
+			PBXPerProjectTemplateStateSaveDate = 299996286;
+			PBXWorkspaceStateSaveDate = 299996286;
 		};
 		sourceControlManager = A173803D11E105C600A30926 /* Source Control */;
 		userBuildSettings = {
@@ -21,8 +22,8 @@
 	32A70AAB03705E1F00C91783 /* qfu_Prefix.pch */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {915, 602}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 148}";
+			sepNavSelRange = "{147, 0}";
+			sepNavVisRange = "{0, 149}";
 			sepNavWindowFrame = "{{15, 143}, {974, 730}}";
 		};
 	};
@@ -43,9 +44,9 @@
 	A173804E11E105FB00A30926 /* fa.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {915, 602}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 238}";
-			sepNavWindowFrame = "{{38, 122}, {974, 730}}";
+			sepNavSelRange = "{215, 0}";
+			sepNavVisRange = "{0, 829}";
+			sepNavWindowFrame = "{{217, 123}, {974, 730}}";
 		};
 	};
 	A173805A11E1062D00A30926 /* fa */ = {
@@ -70,6 +71,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -77,11 +79,81 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = fa;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 	};
 	A173806911E1070C00A30926 /* qfu */ = {
 		activeExec = 0;
+	};
+	A1F52F7F11E1950A00C91448 /* NSString+QFUAdditions.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 602}}";
+			sepNavSelRange = "{366, 0}";
+			sepNavVisRange = "{0, 366}";
+			sepNavWindowFrame = "{{39, 103}, {974, 730}}";
+		};
+	};
+	A1F52F8011E1950A00C91448 /* NSString+QFUAdditions.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {570, 2290}}";
+			sepNavSelRange = "{323, 0}";
+			sepNavVisRange = "{222, 228}";
+			sepNavWindowFrame = "{{463, 76}, {974, 730}}";
+		};
+	};
+	A1F52FA611E217C500C91448 /* utilities.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 602}}";
+			sepNavSelRange = "{1003, 0}";
+			sepNavVisRange = "{0, 1022}";
+			sepNavWindowFrame = "{{332, 104}, {974, 730}}";
+		};
+	};
+	A1F52FF711E2213E00C91448 /* glob.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 602}}";
+			sepNavSelRange = "{275, 0}";
+			sepNavVisRange = "{0, 306}";
+			sepNavWindowFrame = "{{360, 101}, {974, 730}}";
+		};
+	};
+	A1F52FFE11E221E800C91448 /* glob */ = {
+		activeExec = 0;
+		executables = (
+			A1F5300011E221E800C91448 /* glob */,
+		);
+	};
+	A1F5300011E221E800C91448 /* glob */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = glob;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
 	};
 }

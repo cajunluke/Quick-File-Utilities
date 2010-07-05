@@ -1,11 +1,11 @@
 all:
-	xcodebuild
+	xcodebuild -target qfc
 
 fc:
-	xcodebuild
+	xcodebuild -target fc
 
 install:
-	echo make install yay
+	xcodebuild install
 
 clean: 
-	echo rm -f /dev/null
+	xcodebuild clean

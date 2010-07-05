@@ -14,6 +14,7 @@
 			);
 			dependencies = (
 				A173806D11E1071900A30926 /* PBXTargetDependency */,
+				A1F5300411E221F300C91448 /* PBXTargetDependency */,
 			);
 			name = qfu;
 			productName = qfu;
@@ -24,6 +25,9 @@
 		A173806111E1063F00A30926 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		A173806211E1064200A30926 /* fa.m in Sources */ = {isa = PBXBuildFile; fileRef = A173804E11E105FB00A30926 /* fa.m */; };
 		A173806511E106A000A30926 /* fa.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A173804D11E105FB00A30926 /* fa.1 */; };
+		A1F52F8111E1950A00C91448 /* NSString+QFUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F52F8011E1950A00C91448 /* NSString+QFUAdditions.m */; };
+		A1F5300611E2220700C91448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F5300511E2220700C91448 /* Foundation.framework */; };
+		A1F5300811E2221A00C91448 /* glob.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F52FF711E2213E00C91448 /* glob.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +35,15 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A173805A11E1062D00A30926 /* fa */;
+			remoteGlobalIDString = A173805A11E1062D00A30926;
 			remoteInfo = fa;
+		};
+		A1F5300311E221F300C91448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F52FFE11E221E800C91448 /* glob */;
+			remoteInfo = glob;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,6 +66,12 @@
 		A173804D11E105FB00A30926 /* fa.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = fa.1; sourceTree = "<group>"; };
 		A173804E11E105FB00A30926 /* fa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fa.m; sourceTree = "<group>"; };
 		A173805B11E1062D00A30926 /* fa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fa; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F52F7F11E1950A00C91448 /* NSString+QFUAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QFUAdditions.h"; sourceTree = "<group>"; };
+		A1F52F8011E1950A00C91448 /* NSString+QFUAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QFUAdditions.m"; sourceTree = "<group>"; };
+		A1F52FA611E217C500C91448 /* utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utilities.h; sourceTree = "<group>"; };
+		A1F52FF711E2213E00C91448 /* glob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = glob.m; sourceTree = "<group>"; };
+		A1F52FFF11E221E800C91448 /* glob */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = glob; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F5300511E2220700C91448 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C6859EA3029092ED04C91782 /* qfu.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = qfu.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +84,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1F52FFD11E221E800C91448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F5300611E2220700C91448 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,9 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				08FB7795FE84155DC02AAC07 /* Source */,
+				A1F52FC511E218AC00C91448 /* Other Sources */,
 				C6859EA2029092E104C91782 /* Documentation */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
+				A1F5300511E2220700C91448 /* Foundation.framework */,
 			);
 			name = qfu;
 			sourceTree = "<group>";
@@ -84,8 +111,10 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				32A70AAB03705E1F00C91783 /* qfu_Prefix.pch */,
 				A173804E11E105FB00A30926 /* fa.m */,
+				A1F52FF711E2213E00C91448 /* glob.m */,
+				A1F52FF811E2214D00C91448 /* Headers */,
+				A1F52F8311E1958B00C91448 /* Categories */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -102,8 +131,34 @@
 			isa = PBXGroup;
 			children = (
 				A173805B11E1062D00A30926 /* fa */,
+				A1F52FFF11E221E800C91448 /* glob */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F52F8311E1958B00C91448 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A1F52F7F11E1950A00C91448 /* NSString+QFUAdditions.h */,
+				A1F52F8011E1950A00C91448 /* NSString+QFUAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		A1F52FC511E218AC00C91448 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32A70AAB03705E1F00C91783 /* qfu_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A1F52FF811E2214D00C91448 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A1F52FA611E217C500C91448 /* utilities.h */,
+			);
+			name = Headers;
 			sourceTree = "<group>";
 		};
 		C6859EA2029092E104C91782 /* Documentation */ = {
@@ -135,6 +190,22 @@
 			productReference = A173805B11E1062D00A30926 /* fa */;
 			productType = "com.apple.product-type.tool";
 		};
+		A1F52FFE11E221E800C91448 /* glob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F5300711E2220700C91448 /* Build configuration list for PBXNativeTarget "glob" */;
+			buildPhases = (
+				A1F52FFC11E221E800C91448 /* Sources */,
+				A1F52FFD11E221E800C91448 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glob;
+			productName = glob;
+			productReference = A1F52FFF11E221E800C91448 /* glob */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +220,7 @@
 			targets = (
 				A173806911E1070C00A30926 /* qfu */,
 				A173805A11E1062D00A30926 /* fa */,
+				A1F52FFE11E221E800C91448 /* glob */,
 			);
 		};
 /* End PBXProject section */
@@ -159,6 +231,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A173806211E1064200A30926 /* fa.m in Sources */,
+				A1F52F8111E1950A00C91448 /* NSString+QFUAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F52FFC11E221E800C91448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F5300811E2221A00C91448 /* glob.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +250,11 @@
 			isa = PBXTargetDependency;
 			target = A173805A11E1062D00A30926 /* fa */;
 			targetProxy = A173806C11E1071900A30926 /* PBXContainerItemProxy */;
+		};
+		A1F5300411E221F300C91448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F52FFE11E221E800C91448 /* glob */;
+			targetProxy = A1F5300311E221F300C91448 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -181,6 +267,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
@@ -194,6 +281,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
 			};
@@ -204,6 +292,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj *.git";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -211,14 +300,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INSTALL_PATH = /usr/local/bin;
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
+				PREBINDING = YES;
 				PRODUCT_NAME = fa;
 			};
 			name = Debug;
@@ -229,19 +318,20 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj *.git";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INSTALL_PATH = /usr/local/bin;
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
+				PREBINDING = YES;
 				PRODUCT_NAME = fa;
 				ZERO_LINK = NO;
 			};
@@ -264,6 +354,52 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PRODUCT_NAME = qfu;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A1F5300111E221E900C91448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = glob;
+			};
+			name = Debug;
+		};
+		A1F5300211E221E900C91448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = glob;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -294,6 +430,15 @@
 			buildConfigurations = (
 				A173806A11E1070D00A30926 /* Debug */,
 				A173806B11E1070D00A30926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F5300711E2220700C91448 /* Build configuration list for PBXNativeTarget "glob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F5300111E221E900C91448 /* Debug */,
+				A1F5300211E221E900C91448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
