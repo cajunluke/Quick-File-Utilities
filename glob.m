@@ -1,10 +1,12 @@
 #import <Foundation/Foundation.h>
 
+#import "qfu-header.h"
+
 void showUsage();
 
-int main (int argc, const char * argv[])
+int main(int argc, const char *argv[])
 {
-	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 		
 	printf("File Glob test %s\n\n", argv[0]);
 	

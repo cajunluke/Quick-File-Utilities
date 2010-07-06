@@ -2,7 +2,7 @@
 {
 	08FB7793FE84155DC02AAC07 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = A1F5300011E221E800C91448 /* glob */;
+		activeExecutable = A173805C11E1062D00A30926 /* fa */;
 		activeTarget = A173806911E1070C00A30926 /* qfu */;
 		addToTargets = (
 		);
@@ -12,8 +12,8 @@
 			A1F5300011E221E800C91448 /* glob */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 299996286;
-			PBXWorkspaceStateSaveDate = 299996286;
+			PBXPerProjectTemplateStateSaveDate = 300087557;
+			PBXWorkspaceStateSaveDate = 300087557;
 		};
 		sourceControlManager = A173803D11E105C600A30926 /* Source Control */;
 		userBuildSettings = {
@@ -43,10 +43,10 @@
 	};
 	A173804E11E105FB00A30926 /* fa.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {915, 602}}";
-			sepNavSelRange = "{215, 0}";
-			sepNavVisRange = "{0, 829}";
-			sepNavWindowFrame = "{{217, 123}, {974, 730}}";
+			sepNavIntBoundsRect = "{{0, 0}, {500, 821}}";
+			sepNavSelRange = "{801, 0}";
+			sepNavVisRange = "{572, 216}";
+			sepNavWindowFrame = "{{432, 86}, {974, 730}}";
 		};
 	};
 	A173805A11E1062D00A30926 /* fa */ = {
@@ -88,35 +88,43 @@
 	A173806911E1070C00A30926 /* qfu */ = {
 		activeExec = 0;
 	};
+	A18D6D1C11E2F88800DDA9C2 /* fa.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {887, 644}}";
+			sepNavSelRange = "{221, 0}";
+			sepNavVisRange = "{0, 696}";
+			sepNavWindowFrame = "{{61, 59}, {946, 772}}";
+		};
+	};
 	A1F52F7F11E1950A00C91448 /* NSString+QFUAdditions.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {915, 602}}";
-			sepNavSelRange = "{366, 0}";
-			sepNavVisRange = "{0, 366}";
+			sepNavSelRange = "{187, 0}";
+			sepNavVisRange = "{0, 377}";
 			sepNavWindowFrame = "{{39, 103}, {974, 730}}";
 		};
 	};
 	A1F52F8011E1950A00C91448 /* NSString+QFUAdditions.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {570, 2290}}";
-			sepNavSelRange = "{323, 0}";
-			sepNavVisRange = "{222, 228}";
+			sepNavIntBoundsRect = "{{0, 0}, {915, 2324}}";
+			sepNavSelRange = "{201, 0}";
+			sepNavVisRange = "{0, 988}";
 			sepNavWindowFrame = "{{463, 76}, {974, 730}}";
 		};
 	};
-	A1F52FA611E217C500C91448 /* utilities.h */ = {
+	A1F52FA611E217C500C91448 /* qfu-header.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {915, 602}}";
-			sepNavSelRange = "{1003, 0}";
-			sepNavVisRange = "{0, 1022}";
-			sepNavWindowFrame = "{{332, 104}, {974, 730}}";
+			sepNavIntBoundsRect = "{{0, 0}, {915, 664}}";
+			sepNavSelRange = "{1062, 0}";
+			sepNavVisRange = "{31, 1072}";
+			sepNavWindowFrame = "{{85, 93}, {974, 730}}";
 		};
 	};
 	A1F52FF711E2213E00C91448 /* glob.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {915, 602}}";
-			sepNavSelRange = "{275, 0}";
-			sepNavVisRange = "{0, 306}";
+			sepNavSelRange = "{139, 0}";
+			sepNavVisRange = "{0, 327}";
 			sepNavWindowFrame = "{{360, 101}, {974, 730}}";
 		};
 	};

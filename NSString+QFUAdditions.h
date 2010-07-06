@@ -6,12 +6,13 @@
 //  Copyright 2010 Benjamin Fortin. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
-#import "utilities.h"
+#import <Foundation/Foundation.h>
+
+#import "qfu-header.h"
 
 @interface NSString (QFUAdditions)
 
 + (NSString *)stringWithFilesize:(NSUInteger)size;
-+ (NSString *)stringWithFilesize:(NSUInteger)size targetUnit:(QFUSizeUnits)unit;
++ (NSString *)stringWithFilesize:(NSUInteger)size targetUnit:(QFUSizeUnit)unit;
 
 @end
